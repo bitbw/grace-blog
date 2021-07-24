@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "update": "git add -A && git commit -m 'Update' && git pull && git push",
-    "push": "hexo clean && hexo generate && hexo deploy"
+    "push": "hexo generate && hexo deploy"
   },
   "hexo": {
     "version": "5.4.0"
