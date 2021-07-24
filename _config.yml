@@ -104,7 +104,9 @@ theme: auto
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git # 使用 Git 提交
-  repository: https://github.com/bitbw/grace-blog.git # 就是存放博客的仓库地址
+  repo: https://github.com/bitbw/grace-blog.git # 就是存放博客的仓库地址
+  branch: gh-pages
+  message: local deploy
 
 #搜索
 search:
